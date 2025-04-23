@@ -16,9 +16,9 @@ public class UlamFunction {
         }
     // Nach der Schleife: wenn alle Zahlen korrekt waren
         if (allReachOne) {
-            System.out.println("✅ All numbers < 1,000,000 reach 1."); // Erfolgsnachricht
+            System.out.println("All numbers < 1,000,000 reach 1."); // Erfolgsnachricht
         } else {
-            System.out.println("❌ Some number did not reach 1."); // Fehlernachricht (sollte nie erscheinen)
+            System.out.println(" Some number did not reach 1."); // Fehlernachricht (sollte nie erscheinen)
         }
     }
 // Methode, die prüft, ob eine Zahl n durch die Ulam-Folge bei 1 endet
